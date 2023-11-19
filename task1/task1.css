@@ -1,0 +1,111 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  main {
+    padding: 20px;
+    background-color: rgb(202, 202, 231);
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    /* Example: Adjusting layout for smaller screens */
+    main {
+      padding: 10px;
+    }
+  }
+    /* Typography */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  /* Adjust font sizes for different screen sizes */
+  @media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 2em;
+    }
+  }
+  /* Color and Contrast */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  header {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  /* Ensure good contrast for readability */
+  footer {
+    background-color: #444;
+    color: #fff;
+  }
+  /* Layout and Spacing */
+main {
+    padding: 40px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  /* Use flexbox for centered navigation */
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Hover Effects */
+nav a:hover {
+    color: #fff;
+    background-color: #555;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  /* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
